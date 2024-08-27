@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(231, 227, 227);
+    font-family: sans-serif;
+}
+.container {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+select{
+     width: 100%;
+     padding: 15px;
+     background-color: rgb(245, 245, 245);
+     border-radius: 5px;
+     font-size: 20px;
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed grey;
+    padding: 10px;
+}
+.date{
+    color: gray;
+}
+.time{
+    font-weight: bold;
+    font-size: 25px;
+}
+.time small{
+    font-size: 15px;
+}
+footer{
+    text-align: center;
+    color: gray;
+    padding: 20px;
+    font-size: 20px;
+}
